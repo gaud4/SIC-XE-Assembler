@@ -1,0 +1,38 @@
+                                  SYMBOL TABLE                             
+
+:-	name:undefined	|address:0	|relative:00000 
+0:-	name:	|address:0	|relative:00000 
+BUFFER:-	name:BUFFER	|address:00033	|relative:00001 
+CLOOP:-	name:CLOOP	|address:00003	|relative:00001 
+ENDFILL:-	name:ENDFILL	|address:00017	|relative:00001 
+EOF:-	name:EOF	|address:00030	|relative:00001 
+EXIT:-	name:EXIT	|address:00020	|relative:00001 
+FIRST:-	name:FIRST	|address:00000	|relative:00001 
+INPUT:-	name:INPUT	|address:00027	|relative:00001 
+LENGTH:-	name:LENGTH	|address:0002D	|relative:00001 
+MAXLE:-	name:MAXLE	|address:00028	|relative:00001 
+MAXLEN:-	name:MAXLEN	|address:01033	|relative:00001 
+OUTPUT:-	name:OUTPUT	|address:0001B	|relative:00001 
+RDREC:-	name:RDREC	|address:01036	|relative:00001 
+RETADR:-	name:RETADR	|address:0002A	|relative:00001 
+RLOOP:-	name:RLOOP	|address:00009	|relative:00001 
+WLOOP:-	name:WLOOP	|address:00006	|relative:00001 
+WRREC:-	name:WRREC	|address:0002B	|relative:00001 
+
+                                  LITERAL TABLE                             
+
+
+                                  EXTREF TABLE                             
+
+RDREC:-	name:RDREC	|DEFAULT 
+WRREC:-	name:WRREC	|DEFAULT 
+BUFFER:-	name:BUFFER	|RDREC 
+LENGTH:-	name:LENGTH	|RDREC 
+BUFFER:-	name:BUFFER	|WRREC 
+LENGTH:-	name:LENGTH	|WRREC 
+
+                                  EXTDEF TABLE                             
+
+BUFFER:-	name:BUFFER	|address:00033	| 
+LENGTH:-	name:LENGTH	|address:0002D	| 
+

@@ -1,0 +1,8 @@
+       ERRORS IN PASS1       
+
+
+       ERRORS IN PASS2       
+Line 20 : Symbol doesn't exists. Found TABLE2
+Line 25 : Symbol doesn't exists. Found TABLE2
+Line 30 : Symbol doesn't exists. Found TABLE
+Line 35 : Symbol doesn't exists. Found TABLE2
